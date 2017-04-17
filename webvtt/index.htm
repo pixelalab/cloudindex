@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Azure Media Player</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--*****START OF Azure Media Player Scripts*****-->
+    <!--Note: DO NOT USE the "latest" folder in production. Replace "latest" with a version number like "1.0.0"-->
+    <!--EX:<script src="//amp.azure.net/libs/amp/1.0.0/azuremediaplayer.min.js"></script>-->
+    <!--Azure Media Player versions can be queried from //aka.ms/ampchangelog-->
+    <link href="https://amp.azure.net/libs/amp/latest/skins/amp-default/azuremediaplayer.min.css" rel="stylesheet">
+    <script src="https://amp.azure.net/libs/amp/latest/azuremediaplayer.min.js"></script>
+    <!--*****END OF Azure Media Player Scripts*****-->
+
+</head>
+<body>
+    <h1>Sample: WebVTT Subtitles</h1>
+    <div id="video">
+        <video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" autoplay controls width="640" height="400" poster="" data-setup='{}' tabindex="0">
+            <source src="http://pixcloudrec.streaming.mediaservices.windows.net/e3f73005-08e0-4f45-bcdc-4bb0150c0762/2355%E3%83%BB0655%E8%85%91%E3%81%AB%E3%81%8A%E3%81%A1%E3%82%8B%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB.ism/manifest" type="application/vnd.ms-sstr+xml" />
+            <track kind="subtitles" src="2355%E3%83%BB0655%E8%85%91%E3%81%AB%E3%81%8A%E3%81%A1%E3%82%8B%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB_aud_SpReco.vtt" srclang="ja" label="日本語">
+            <track kind="subtitles" src="2355%E3%83%BB0655%E8%85%91%E3%81%AB%E3%81%8A%E3%81%A1%E3%82%8B%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB_aud_SpReco.en.vtt" srclang="en" label="英語">
+            <track kind="subtitles" src="2355%E3%83%BB0655%E8%85%91%E3%81%AB%E3%81%8A%E3%81%A1%E3%82%8B%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB_aud_SpReco.fr.vtt" srclang="fr" label="フランス語">
+            <track kind="subtitles" src="2355%E3%83%BB0655%E8%85%91%E3%81%AB%E3%81%8A%E3%81%A1%E3%82%8B%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB_aud_SpReco.de.vtt" srclang="de" label="ドイツ語">
+            <track kind="subtitles" src="2355%E3%83%BB0655%E8%85%91%E3%81%AB%E3%81%8A%E3%81%A1%E3%82%8B%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB_aud_SpReco.it.vtt" srclang="it" label="イタリア語">
+            <track kind="subtitles" src="2355%E3%83%BB0655%E8%85%91%E3%81%AB%E3%81%8A%E3%81%A1%E3%82%8B%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB_aud_SpReco.ru.vtt" srclang="ru" label="ロシア語">
+            <track kind="subtitles" src="2355%E3%83%BB0655%E8%85%91%E3%81%AB%E3%81%8A%E3%81%A1%E3%82%8B%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB_aud_SpReco.ko.vtt" srclang="ko" label="韓国語">
+            <track kind="subtitles" src="2355%E3%83%BB0655%E8%85%91%E3%81%AB%E3%81%8A%E3%81%A1%E3%82%8B%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB_aud_SpReco.zh-CHS.vtt" srclang="chs" label="簡体字中国語"> 
+            <track kind="subtitles" src="2355%E3%83%BB0655%E8%85%91%E3%81%AB%E3%81%8A%E3%81%A1%E3%82%8B%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB_aud_SpReco.tlh.vtt" srclang="tlh" label="クリンゴン語">
+            <p class="amp-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
+        </video>
+    </div>
+    <footer>
+        <br />
+        <p>© Pixela Corporation 2017</p>
+    </footer>
+
+</body>
+</html>
